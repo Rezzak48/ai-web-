@@ -1,10 +1,27 @@
 import React from "react";
-// gotta put them in one file so I can export them in one line 
+import {
+  Footer,
+  Blog,
+  Possibility,
+  Features,
+  WhatGPT3,
+  Header,
+} from "./containers";
+import { Cta, Brand, Navbar } from "./components";
 
 const App = () => {
   return (
-    <div>
-      <h1>GPT- APP</h1>
+    <div className="App">
+      <div className="gradient__bg">
+        <Navbar />
+        <Header />
+      </div>
+      <Brand />
+      <WhatGPT3 />
+      <Features />
+      <Possibility />
+      <Cta />
+      <Blog />
     </div>
   );
 };
