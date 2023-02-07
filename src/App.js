@@ -9,7 +9,7 @@ import {
 } from "./containers";
 import { Cta, Brand, Navbar } from "./components";
 import "./App.css";
-import './index.css'
+import "./index.css";
 
 const App = () => {
   return (
@@ -24,6 +24,7 @@ const App = () => {
       <Possibility />
       <Cta />
       <Blog />
+      <Footer />
     </div>
   );
 };
