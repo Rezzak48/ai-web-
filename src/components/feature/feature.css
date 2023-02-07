@@ -31,9 +31,9 @@
 }
 
 .gpt3__features-container__feature-text {
-    flex: 2;
+    flex: 3;
     max-width: 390px;
-    /* align-items: flex-end; */
+    align-items: flex-end;
     display: flex;
 }
 
