@@ -1,4 +1,4 @@
-.gpt3__blog-container_article {
+.pt3__blog-container_article {
     width: 100%;
     height: 100%;
     display: flex;
@@ -35,7 +35,7 @@
 
 .gpt3__blog-container_article-content h3 {
     font-family: var(--font-family);
-    font-size: 25.11px;
+    font-size: 24px;
     font-weight: 800;
     line-height: 30.30px;
     color: #fff;
@@ -45,6 +45,14 @@
 
 .gpt3__blog-container_article-content p:last-child {
     cursor: pointer;
+    margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 900px) {
+    .gpt3__blog-container_article-content h3 {
+        font-size: 20px;
+        line-height: 25p;
+    }
 }
 
 @media screen and (max-width: 550px) {
